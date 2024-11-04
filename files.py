@@ -1,3 +1,4 @@
+import time
 file = open('Data\\text.txt', 'w')
 
 file.write('hello')
@@ -10,3 +11,6 @@ for line in my_file:
     print(line, end='')
 
 print('Ok!')
+print('Ok!!!!!')
+a = print(42)
+print(a)

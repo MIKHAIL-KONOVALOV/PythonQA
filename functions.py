@@ -10,5 +10,12 @@ def minimum(incomelist):
     return min_number
 
 
-print(minimum(nums1))
-print(minimum(nums2))
+def defaultArgFunc(x=16, y =44):
+    return x ** 2 if __name__ == '__main__' else x ** 3
+
+
+if __name__ == '__main__':
+    # print(minimum(nums1))
+    # print(minimum(nums2))
+    print(defaultArgFunc())
+    # print(defaultArgFunc(12))
